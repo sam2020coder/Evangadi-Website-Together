@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>
 			Evangadi Networks
 		</title>
 
 	</head>
-
-		<div class="containerOne">
-			<div class="navBar">
-				<ul>
+		<div class="navBar">
+			<ul>
+				<div class=logo>
 					<li><img src="images/evangadi-logo-home.png" alt="Evangadi"></li>
-					<li>Home</li>
-					<li>How it works</li>
-					<li>sign in</li>				
-				</ul>
+				</div>
+				<div class=buttons>
+					<li><a href="https://www.evangadi.com/">Home</a> </li>
+					<li><a href="https://www.evangadi.com/explained/">How it works</a></li>
+                     <li><a class="lnk-toggler btn btn-blue" data-panel=".panel-login" href="#">Sign in</a></li> 
+				</div>				
+			</ul>
+		</div>
+		<br>
+	<div class=Wrapper1>
+		<div class="containerOne">
+			<h3>Join the network</h3>
+			Already have an account? Sign in.
+
+			<div class="form">
+				<input type="email" class="form control eva_email" name="eva_email" placeholder= "Email address"></input>
+				<input type="text" class="form control eva_First name" name="eva_First name" placeholder= "First name"></input>
+				<input type="text" class="form control eva_Last name" name="eva_Last name" placeholder= "Last name"></input>
+				<input type="email" class="form control eva_Password" name="eva_Password" placeholder= "Password"></input>
+			</div>
+			<br>
+			<div class=aggrement>
+				<p>I agree to the<a href="https://www.evangadi.com/legal/privacy/">Privacy policy</a> 
+				and
+				<a href="https://www.evangadi.com/legal/terms/"> terms of service.</a>
+				</p>
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Agree and Join</button>
+				<p>Already have an account?</p>
 			</div>
 		</div>
-		 <h3>Join the network</h3>
-		 Already have an account? Sign in.
 
-		<div class="form">
-			<input type="email" class="form control eva_email" name="eva_email" placeholder= "Email address"></input>
-			<input type="text" class="form control eva_First name" name="eva_First name" placeholder= "First name"></input>
-			<input type="text" class="form control eva_Last name" name="eva_Last name" placeholder= "Last name"></input>
-			<input type="email" class="form control eva_Password" name="eva_Password" placeholder= "Password"></input>
-	    </div>
-		<p>I agree to the<a href="https://www.evangadi.com/legal/privacy/">Privacy policy</a> 
-		 and
-		  <a href="https://www.evangadi.com/legal/terms/"> terms ofservice.</a>
-		  </p>
-		<h3>Agree and Join</h3>
-		<h3>Already have an account?</h3>
-	</di
+		<div class="containerTwo">
+			<small class="text">about</small>
+			<h2>Evangadi Networks</h2>
+			<p>
+				No matter what stage of life you are in, whether you’re just starting elementary school or being promoted to CEO of a Fortune 500 company, you have much to offer to those who are trying to follow in your footsteps.
+			</p>
+			<br>
+			<p>Wheather you are willing to share your knowledge or you are just looking to meet mentors of your own, please start by joining the network here.</p>
+			<br>
+			<p><a href="https://www.evangadi.com/explained/">HOW IT WORKS</a></p>
+		</div>
+	</div>
 	</body>
 </html>
