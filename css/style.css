@@ -1,18 +1,24 @@
 .containerOne{
-    box-sizing: border-box;
+    box-sizing: content-box;
+    width: 100%;
+    float: left;
+    padding:0px;
+    margin:0px;
 }
 
 .navBar ul{
     text-decoration: none;
     /*text-align: auto;*/
-    background-color: orange;
+    background-color: white;
     color: black;
     padding-bottom: under;
+    border: 1px solid #ced4da;
 }
 .navBar ul li{
     display: block;
   -webkit-box-pack: justify;
   justify-content: space-between;
+  /*text-align: auto;*/
 }
 .form{
     display: inline-block;
@@ -23,8 +29,8 @@
     line-height: 1.5;
     color: #495057;
     background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
+   /* background-clip: padding-box;*/
+    /*border: 1px solid #ced4da;
+    /*border-radius: .25rem;*/
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
